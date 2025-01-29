@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+
+body{
+    background-image: url(../img/fon.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header{
+    font-family: 'Montserrat medium';
+}
+.g1{
+    display: flex;
+    align-items: center;
+}
+.hed_1{
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.p1{
+    width: 100px;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.p3{
+    width: 40px;
+    height: 3px;
+    margin: 7px;
+    border-radius: 10px;
+    background-color: white;
+}
+main{
+    font-family: 'Montserrat medium';
+    font-size: 40px;
+}
+.main_1{
+   padding-top: 200px;
+}.main_2{
+    padding-top: 50px;
+    font-family:'Montserrat';
+    font-size: 20px;
+    width: 500px;
+}
+.main_3{
+    padding-top: 50px;
+    font-family: 'Montserrat';
+
+}
+
